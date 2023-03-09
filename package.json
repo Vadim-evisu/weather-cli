@@ -17,6 +17,10 @@
   "keywords": [
     "weather"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vadim-evisu/weather-cli"
+  },
   "author": "Daniel",
   "license": "ISC",
   "dependencies": {
