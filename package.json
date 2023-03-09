@@ -1,9 +1,12 @@
- {
-  "name": "weather-cli",
+{
+  "name": "weather-cli-daniel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "bin": "./index.js",
+  "description": "Node Weather CLI",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "engines": {
     "node": ">=14"
   },
@@ -15,5 +18,9 @@
     "weather"
   ],
   "author": "Daniel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1"
+  }
 }
