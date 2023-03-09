@@ -69,7 +69,7 @@ const initCLI = () => {
     // save token
     return saveToken(args.t);
   }
-  return getForecast("Kyiv");
+  return getForecast();
   // return weather
 };
 
